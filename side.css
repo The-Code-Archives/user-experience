@@ -37,50 +37,6 @@ body, html {
     background-color: #ddd;
 }
 
-
-.content {
-    display:flex;
-    justify-content: space-between;
-}
-
-.intro h1 {
-    color: #2c3e50;
-    border-bottom: 2px solid #e74c3c;
-    padding-bottom: 10px;
-    font-size: 48pt;
-}
-
-.intro li {
-    font-size: 25pt;
-}
-
-.intro li a:hover {
-    color:#f2f2f2;
-    background-color: #04AA6D;
-}
-
-.intro {
-    background-color: #ebeff4;
-    color: #333333;
-    margin: auto; /* Center the content horizontally on the page */
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    width: 48%;
-    height: 50vh;
-}
-
-.top {
-    width: 48%;
-}
-
-.top img {
-    max-width: 100%;
-    max-height: 100%;
-}
-
-
-
 footer {
     background-color: black;
     width: 100%;
@@ -96,3 +52,29 @@ footer p {
     font-size: 30pt;
 }
 
+.containerImg {
+    float:left;
+    width: 50%;
+}
+
+.containerImg img {
+    width: 100%;
+}
+
+.containerText {
+    float:right;
+    width: 50%;
+}
+
+.title {
+    text-align: center;
+    color: #2c3e50;
+    border-bottom: 2px solid #e74c3c;
+    padding-bottom: 10px;
+    font-size: 48pt;
+}
+
+p {
+    margin-left: 10px;
+    font-size: 20pt;
+}
